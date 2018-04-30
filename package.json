@@ -1,0 +1,26 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A Node/Express/Handlebars/MySQL Full Stack SPA for handling Hamburger orders.",
+  "main": "server.js",
+  "scripts": {
+    "test": "localhost:3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelWrobelPersonal/Burger.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MySql",
+    "HandleBars",
+    "Hamburger"
+  ],
+  "author": "Mike Wrobel",
+  "license": "SEE LICENSE IN license.dat",
+  "bugs": {
+    "url": "https://github.com/MichaelWrobelPersonal/Burger/issues"
+  },
+  "homepage": "https://github.com/MichaelWrobelPersonal/Burger#readme"
+}
