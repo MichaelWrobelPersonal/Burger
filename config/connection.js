@@ -1,7 +1,3 @@
-import { isNullOrUndefined } from "util";
-
-module.exports = function database (app, path) {
-
   var mysql = require("mysql");
 
   var connection = mysql.createConnection({
@@ -14,10 +10,12 @@ module.exports = function database (app, path) {
   connection.connect(function(err) {
     if (err) {
       console.error("error connecting: " + err.stack);
-      return null;
+      return;
     }
   
     console.log("connected as id " + connection.threadId);
-    return connection;
+//    return connection;
   });
-};
+
+module.exports = connection;
+
