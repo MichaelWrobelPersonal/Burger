@@ -33,8 +33,8 @@ img {
     margin: 0px auto;
 }
 
- .spacer {
-     width: 100%;
+ .create-form {
+     clear: both;
  }
 
 h1, h2, h3 {
