@@ -41,6 +41,33 @@ p {
      color: teal;
 }
 
+ul, li {
+    font-size: 15px;
+    color: teal;
+}
+
+button {
+    font-size: 9px;
+    font-weight: bold;
+    background-color: darkcyan;
+    color: floralwhite;
+    border-style: groove;
+    border-radius: 3px;
+    border-width: 2px;
+    margin: 3px;
+}
+
+label {
+    font-size: 12px;
+    color: teal;
+    margin: 6px;
+}
+
+input div {
+    font-size: 12px;
+    color: darkcyan;
+}
+
 jumbotron { 
     background-image: url("./assets/img/burger.png");
     background-repeat: no-repeat;
