@@ -33,7 +33,7 @@ img {
     margin: 0px auto;
 }
 
- .create-form .create-form-label {
+ .create-form .create-form-label .form-group {
      clear: both;
 }
 
