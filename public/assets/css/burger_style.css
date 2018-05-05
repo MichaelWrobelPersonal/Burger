@@ -33,9 +33,9 @@ img {
     margin: 0px auto;
 }
 
- .create-form {
+ .create-form .create-form-label {
      clear: both;
- }
+}
 
 h1, h2, h3 {
        color: #4aaaa5;
