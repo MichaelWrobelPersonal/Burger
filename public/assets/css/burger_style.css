@@ -12,6 +12,7 @@ body {
         font-size: 12px;
         line-height: 10px;
         color: #777777;
+        background-color: wheat;
         max-width: 960px;
         margin: 10px;
         clear: both;
@@ -83,4 +84,16 @@ jumbotron {
 
 figure {
     float: left;
+}
+
+#leftcolumn {
+    float: left;
+    width: 450px;
+    margin: 10px;
+}
+
+#rightcolumn {
+    float: left;
+    width: 450px;
+    margin: 10px;
 }

@@ -1,5 +1,6 @@
 <h1>Burgers!</h1>
 
+<div id='leftcolumn' >
 <h2>Burgers that are ready to eat</h2>
 
 <ul>
@@ -9,7 +10,9 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
+<div id='rightcolumn'>
 <h2>Burgers that have been eaten!</h2>
 
 <ul>
@@ -19,6 +22,7 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
 
 <h2>Add a Burger</h2>
 <form class="create-form">
@@ -27,7 +31,7 @@
     <label for="bg">Burger Name:</label>
     <input type="text" id="bg" name="burger_name">
   </div>
-
+  <br>
   <div class="form-group">
     <label for="devoured">Eaten?</label><br>
     <input type="radio" name="devoured" value="1" checked> <label>Available!</label><br>
