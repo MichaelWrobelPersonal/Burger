@@ -13,13 +13,16 @@ body {
         line-height: 10px;
         color: #777777;
         background-color: wheat;
+        width: 100%;
         max-width: 960px;
         margin: 10px;
         clear: both;
-        display:flex;
-        flex-flow:column; /* Note: Added to facilitate to-fill-full-screen */
-}
-        
+  }
+
+ footer {
+    clear: both;
+ }
+
 h1, h2, h3 {
        color: #4aaaa5;
        font-family: Georgia, Times, "Times New Roman", serif;
@@ -80,10 +83,6 @@ jumbotron {
     min-width: 150px;
     margin: 25px;
     padding: 5px;
-}
-
-figure {
-    float: left;
 }
 
 #leftcolumn {
