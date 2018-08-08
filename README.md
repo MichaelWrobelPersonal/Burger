@@ -1,8 +1,12 @@
 # Burger
+
+# Descriptio 
 A Node/Express/Handlebar Full Stack SPA Hamburger Ordering Application.
 
 # Deployed site
-[Burger](https://michaelwrobelpersonal.github.io/RPS-Multiplayer/)
+
+[Burger]
+https://pure-escarpment-28728.herokuapp.com
 
 # Technology Details
 
@@ -10,8 +14,8 @@ This project utlizes Handlebars for moduliration of front-end display component.
  
 # About the Theme
 
-What can can I say about the theme of the project?  Ite tem is a school assignemtn about Hamburgers.  Nothing more or nothing less.
-Theme simplY serves to provide an exmple of Handlebars at fork.
+What can can I say about the theme of the project?  It is a school assignment about Hamburgers.  Nothing more or nothing less.
+The web-site simply serves to provide an example of Handlebars at work.
 
 # Contributons
 
